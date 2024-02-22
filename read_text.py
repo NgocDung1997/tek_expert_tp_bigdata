@@ -32,7 +32,7 @@ def process_line(line):
     return name,age,year,description,isNew
 
 # Đường dẫn tới file
-file_path = 'D:\Tek Experts\TPBank\Code\ReadText\sample.txt'
+file_path = 'D:\Tek Experts\TPBank\Code\ReadText\sample_small.txt'
 
 # Đọc dữ liệu từ file và chuyển đổi thành DataFrame
 text_rdd = spark.sparkContext.textFile(file_path)
